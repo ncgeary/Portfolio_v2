@@ -26,16 +26,12 @@
       font-size: 99%;
     }
   }
-  .menu{
-    width: 100%;
-    margin-top: 5%;
-  }
 
   ul.menu-nav,
   div.menu-branding {
     float: none;
-    // margin-top: 50%;
-    // width: 100%;
+    margin-top: 10%;
+    width: 100%;
     min-height: 0;
 
     &.show {
@@ -79,11 +75,12 @@
       font-size: 5rem;
     }
   }
-  .menu {
-    width: 100%;
-  }
-
   .projects {
     grid-template-columns: 1fr;
+  }
+  .menu{
+    margin-left: 0;
+    width: 100%;
+    margin-top:10%;
   }
 }

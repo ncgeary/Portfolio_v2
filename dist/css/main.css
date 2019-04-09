@@ -40,7 +40,7 @@
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu .nav-item {
-    transform: translate3d(600px, 0, 0);
+    transform: translate3d(800px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
@@ -119,7 +119,8 @@ h3 {
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem; }
+    padding: 0.2rem 1rem;
+    background: rgba(73, 73, 73, 0.5); }
 
 a {
   color: #fff;
@@ -252,12 +253,11 @@ main {
       margin-bottom: .8rem; }
     main .sm-heading {
       font-size: 99%; }
-  .menu {
-    width: 100%;
-    margin-top: 5%; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
+    margin-top: 10%;
+    width: 100%;
     min-height: 0; }
     ul.menu-nav.show,
     div.menu-branding.show {
@@ -278,7 +278,9 @@ main {
     main .lg-heading {
       margin-top: 1rem;
       font-size: 5rem; }
-  .menu {
-    width: 100%; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .menu {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 10%; } }
