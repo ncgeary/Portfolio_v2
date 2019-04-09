@@ -194,6 +194,13 @@ main {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 60px;
+
+  a{
+    color: $secondary-color;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
 }
 
 @import 'mobile';

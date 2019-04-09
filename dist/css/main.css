@@ -238,6 +238,10 @@ main {
   background: #2b2b2b;
   color: #fff;
   height: 60px; }
+  #main-footer a {
+    color: #6DB8FF; }
+  #main-footer a:hover {
+    text-decoration: underline; }
 
 @media screen and (min-width: 1171px) {
   .projects {
