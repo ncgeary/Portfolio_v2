@@ -43,25 +43,15 @@
 .menu {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 25%;
+  margin-left: 75%;
   opacity: 0.9;
   visibility: hidden;
+  text-align: center;
 
 
   &.show {
     visibility: visible;
-  }
-
-  &-branding,
-  &-nav {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-    float: left;
-    width: 50%;
-    height: 100vh;
-    overflow: hidden;
   }
 
   &-nav {
@@ -78,26 +68,6 @@
     }
   }
 
-  // Branding Side
-  &-branding {
-    background: $primary-color;
-    transform: translate3d(0, 100%, 0);
-    @include easeOut;
-
-    &.show {
-      // Slide in from bottom
-      transform: translate3d(0, 0, 0);
-    }
-
-    // .portrait {
-    //   width: 250px;
-    //   height: 250px;
-    //   background: url('../img/portrait.jpg');
-    //   border-radius: 50%;
-    //   border: solid 3px $secondary-color;
-    // }
-  }
-
   .nav-item {
     transform: translate3d(600px, 0, 0);
     @include easeOut;
@@ -108,6 +78,9 @@
     }
 
     &.current > a {
+      color: $secondary-color;
+    }
+    :hover{
       color: $secondary-color;
     }
   }
@@ -130,7 +103,7 @@
 }
 
 // Delay each nav item slide by 0.1s
-@for $x from 1 through 6 {
+@for $x from 1 through 7 {
   .nav-item:nth-child(#{$x}) {
     transition-delay: $x * 0.1s;
   }
