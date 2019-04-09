@@ -11,5 +11,13 @@
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncgeary/Portfolio_v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ncgeary/Portfolio_v2/issues"
+  },
+  "homepage": "https://github.com/ncgeary/Portfolio_v2#readme"
 }
