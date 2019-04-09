@@ -34,6 +34,7 @@
       &:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
       }
+
     }
   }
 }
@@ -128,7 +129,7 @@
 }
 
 // Delay each nav item slide by 0.1s
-@for $x from 1 through 4 {
+@for $x from 1 through 6 {
   .nav-item:nth-child(#{$x}) {
     transition-delay: $x * 0.1s;
   }
