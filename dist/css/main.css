@@ -173,6 +173,10 @@ main {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #6DB8FF 5px solid; }
+  .about-info a {
+    color: #6DB8FF; }
+  .about-info a:hover {
+    text-decoration: underline; }
 
 .projects {
   display: grid;

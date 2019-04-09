@@ -111,7 +111,14 @@ main {
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }
+  a{
+    color: $secondary-color;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
 }
+
 
 // Work/Projects
 .projects {
