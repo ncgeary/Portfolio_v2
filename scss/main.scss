@@ -113,12 +113,14 @@ main {
   }
 }
 
-
 // Work/Projects
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  
+  a{
+    text-align: center;
+  }
 
   img {
     width: 100%;
@@ -129,6 +131,17 @@ main {
       border-color: $secondary-color;
       @include easeOut;
     }
+  }
+  h3{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .project-info {
+    padding: 5px;
+    font-size: 75%;
+  }
+  .card{
+    padding: 0 25px 0 25px;
   }
 }
 
