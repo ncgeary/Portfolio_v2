@@ -1,23 +1,25 @@
 {
-  "name": "portfolio_v2",
+  "name": "geary_portfolio",
   "version": "2.0.0",
   "description": "Updated Portfolio",
   "main": "index.js",
+  "homepage": "https://ncgeary.github.io/NGeary_Portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Nicholas Geary",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncgeary/Portfolio_v2.git"
+    "url": "git+https://github.com/ncgeary/Geary_Portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/ncgeary/Portfolio_v2/issues"
-  },
-  "homepage": "https://github.com/ncgeary/Portfolio_v2#readme"
+    "url": "https://github.com/ncgeary/Geary_Portfolio/issues"
+  }
 }
