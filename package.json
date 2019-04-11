@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Updated Portfolio",
   "main": "index.js",
-  "homepage": "https://ncgeary.github.io/NGeary_Portfolio",
+  "homepage": "https://ncgeary.github.io/Geary_Portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
